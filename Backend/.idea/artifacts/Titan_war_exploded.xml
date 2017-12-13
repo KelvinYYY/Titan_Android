@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Titan:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Titan_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Titan" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="java-json" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.44-bin" />
+          <element id="library" level="application" name="mysql-connector-java-5.1.44-bin" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Titan/web/Web" />
+      <element id="javaee-facet-resources" facet="Titan/ejb/EJB" />
+      <element id="javaee-facet-resources" facet="Titan/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="META-INF">
+        <element id="library" level="project" name="java-json" />
+      </element>
+    </root>
+  </artifact>
+</component>
